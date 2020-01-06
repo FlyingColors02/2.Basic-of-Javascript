@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <script type="text/javascript" lang="javascript">
+        //Bad Practice... never write JS code in <head> tag.
+        // First let the <body> tag content load on browser canvas.
+    </script>
+</head>
+<body>
+    <h1>hello!! I'm in body</h1>>
+</body>
+
+<script type="text/javascript" lang="javascript">
+    console.log("Hello!! I'm JS in HTML file.");
+    //Good Practice... always write JS code after <body> tag only if the it is small.
+</script>
+
+<script type="text/javascript" lang="javascript" src="main.js">
+    // Good Practice... to write distributed code..easy to handle (always prefer this) 
+    //src: to link JS file to HTML file.
+</script>
+</html>
